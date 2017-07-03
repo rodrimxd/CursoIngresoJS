@@ -4,6 +4,7 @@
 */
 function Mostar()
 {
-	
-}
+	var nombre = prompt("indique su nombre");
+	document.getElementById('elNombre').placeholder = nombre;
 
+}
