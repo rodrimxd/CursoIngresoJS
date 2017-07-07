@@ -11,7 +11,7 @@ de no ser igual se debe informar si “falta…”  para llegar al número secre
 */
 var numeroSecreto; 
 var contadorIntentos;
-
+var numero;
 
 function comenzar()
 {
@@ -26,14 +26,13 @@ function comenzar()
 }
 
 function verificar()
-{
-	var numero;
+{	
 	numero=document.getElementById('numero').value;
 	contadorIntentos+=1;
+	
 	if (numero==numeroSecreto) 
 	{
-		alert("piola wachin. Lo hiciste en " + contadorIntentos + " intentos");				
-		document.getElementById('numero').value=0;
+		alert("piola wachin. Lo hiciste en " + contadorIntentos + " intentos");	
 	}
 	else
 	{
