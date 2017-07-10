@@ -70,6 +70,7 @@ function CalcularPrecio ()
 	}
 
 	precioFinalConDescuento=precioFinal-precioDescuento;
+	
 	if (precioFinalConDescuento>120) 
 	{
 		var IIBB= precioFinalConDescuento*0.1;
